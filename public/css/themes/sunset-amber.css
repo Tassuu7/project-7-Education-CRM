@@ -1,0 +1,29 @@
+/* ==========================================================================
+   EduPulse Theme: SUNSET-AMBER
+   ========================================================================== */
+
+[data-theme='sunset-amber'] {
+  --bg-app: #0f172a;
+  --bg-surface: #1e293b;
+  --bg-card: #1e293b;
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
+  --primary-500: #6366f1;
+  --primary-600: #4f46e5;
+  --border-color: #334155;
+  --glass-bg: rgba(30, 41, 59, 0.85);
+}
+
+.sunset-amber-card {
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  padding: 20px;
+  transition: transform var(--transition-normal);
+}
+
+.sunset-amber-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
