@@ -1,0 +1,32 @@
+{
+  "name": "edupulse-education-crm",
+  "version": "1.0.0",
+  "description": "Enterprise-Grade Education CRM & Student Lifecycle Management Platform",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node database/seeders/seed-all.js",
+    "test": "node tests/run-tests.js",
+    "measure": "python measure.py",
+    "package": "python scripts/package-project.py",
+    "health": "node scripts/verify-health.js"
+  },
+  "keywords": [
+    "education-crm",
+    "student-lifecycle",
+    "admissions",
+    "lead-management",
+    "gradebook",
+    "attendance",
+    "billing",
+    "helpdesk",
+    "enterprise"
+  ],
+  "author": "EduPulse Engineering Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {}
+}
